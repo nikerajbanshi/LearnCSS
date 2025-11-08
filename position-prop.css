@@ -1,0 +1,45 @@
+div{
+  height:100px;
+  width:100px;
+  background-color:rgb(182, 212, 10);
+  margin:4px;
+  border:2px solid black;
+  display:inline-block;
+}
+.relative{
+  background-color:aqua;
+  position:static; /* default value */
+  position:relative;
+  top:50px;
+  left:30px;
+}
+
+.absolute{
+  background-color:yellow;
+  position:absolute;
+  top:60px;
+  left:100px;
+}
+
+.fixed{
+  background-color:rgb(245, 8, 8);
+  position:fixed;
+  top:60px;
+  left:100px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Main content */
+main {
+  background-color: #f2f2f2;
+  padding: 20px;
+  height: 500vh; /* make page scrollable */
+}

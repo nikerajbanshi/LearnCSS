@@ -1,0 +1,37 @@
+/* Universal selector */
+*{
+ background-color:bisque;
+}
+
+
+
+/* class selector */
+.a{
+  text-align:center;
+  text-decoration:underline;
+}
+.b{
+  text-align:justify;
+  line-height:1.5;
+}
+.c{
+  text-transform:lowercase;
+  letter-spacing:2px;
+  font-weight: 400;
+}
+.d{
+  font-family:  sans-serif;
+  font-size:30px;
+  font-style:italic
+}
+/* class selector */
+
+/* id selector */
+
+#anchor{
+  text-transform:capitalize;
+  text-decoration:none;
+}
+
+
+

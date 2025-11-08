@@ -1,0 +1,17 @@
+h2,h3{
+ background-color: #57bf07;
+ display:inline;
+}
+span{
+  background-color: #f542dd;
+  display:block;
+}
+
+div{
+  height:100px;
+  width:100px;
+  background-color: #c9da0b;
+  border:1px solid black;
+  margin:4px;
+  display:inline-block;
+}

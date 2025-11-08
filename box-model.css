@@ -1,0 +1,47 @@
+/* .box1{
+  height:200px;
+  width:300px;
+  background-color:lightgreen;
+  text-align:center;
+  border:2px solid black;
+  border-radius:5%;
+  padding:20px 30px; sets padding 20px top and bottom, 30px left and right 
+  margin:15px 25px;  sets margin 15px top and bottom, 25px left and right 
+  display:inline-block;
+} */
+
+/* .box2{
+  height:200px;
+  width:300px;
+  background-color:rgb(189, 133, 12);
+  text-align:center;
+  border:2px solid rgb(133, 8, 8);
+  border-radius:5%;
+  padding:40px;  sets padding 40px on all sides 
+  margin:30px;  sets margin 30px on all sides
+} */
+
+.mainBox{
+  height:200px;
+  width:70px;
+  border:2px solid black;
+  
+}
+
+.box{
+  height:50px;
+  width:50px;
+  border:2px solid black;
+  margin:10px;
+  border-radius:50%;
+}
+
+.a{
+  background-color:red
+}
+.b{
+  background-color:green;
+}
+.c{
+ background-color:yellow;
+}
