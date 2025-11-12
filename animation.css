@@ -1,0 +1,41 @@
+.box{
+  height:200px;
+  width:200px;
+  font-size:20px;
+  text-align:center;
+  background-color:red;
+  border-radius:50%;
+  /* margin:auto; */
+  animation: animate 4s ease-in 1s 6 alternate;
+  /* animation:myAnimation 3s ease-in 1s 4 normal; */
+}
+
+@keyframes animate{
+  from{
+    /* transform:scale(0.5); */
+    transform:translateX(0%);
+  }
+  to{
+    /* transform:scale(1.5); */
+    transform:translateX(300%);
+  }
+}
+
+/* @keyframes myAnimation{
+  0%{
+    background-color:red;
+  }
+  40%{
+    background-color:aqua;
+  }
+  60%{
+    background-color:rgb(238, 255, 0);
+  }
+  80%{
+    background-color:rgb(26, 255, 0);
+  }
+  100%{
+    background-color:darkblue;
+  }
+} */
+
